@@ -39,6 +39,36 @@
     <ClCompile Include="src\controllers\MainController.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="src\views\SampleView.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\OrderView.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\ProductionLineView.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\MonitoringView.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\ShipmentView.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="src\controllers\SampleController.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="src\controllers\OrderController.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="src\controllers\ProductionLineController.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="src\controllers\MonitoringController.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="src\controllers\ShipmentController.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\models\Item.h">
@@ -56,6 +86,21 @@
     <ClInclude Include="src\views\MainMenuView.h">
       <Filter>헤더 파일\views</Filter>
     </ClInclude>
+    <ClInclude Include="src\views\SampleView.h">
+      <Filter>헤더 파일\views</Filter>
+    </ClInclude>
+    <ClInclude Include="src\views\OrderView.h">
+      <Filter>헤더 파일\views</Filter>
+    </ClInclude>
+    <ClInclude Include="src\views\ProductionLineView.h">
+      <Filter>헤더 파일\views</Filter>
+    </ClInclude>
+    <ClInclude Include="src\views\MonitoringView.h">
+      <Filter>헤더 파일\views</Filter>
+    </ClInclude>
+    <ClInclude Include="src\views\ShipmentView.h">
+      <Filter>헤더 파일\views</Filter>
+    </ClInclude>
     <ClInclude Include="src\controllers\IController.h">
       <Filter>헤더 파일\controllers</Filter>
     </ClInclude>
@@ -63,6 +108,21 @@
       <Filter>헤더 파일\controllers</Filter>
     </ClInclude>
     <ClInclude Include="src\controllers\MainController.h">
+      <Filter>헤더 파일\controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\controllers\SampleController.h">
+      <Filter>헤더 파일\controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\controllers\OrderController.h">
+      <Filter>헤더 파일\controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\controllers\ProductionLineController.h">
+      <Filter>헤더 파일\controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\controllers\MonitoringController.h">
+      <Filter>헤더 파일\controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\controllers\ShipmentController.h">
       <Filter>헤더 파일\controllers</Filter>
     </ClInclude>
     <ClInclude Include="src\utils\InputHelper.h">

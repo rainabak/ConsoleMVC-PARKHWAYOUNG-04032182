@@ -135,7 +135,17 @@
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\utils\ConsoleUtil.cpp" />
     <ClCompile Include="src\views\MainMenuView.cpp" />
+    <ClCompile Include="src\views\SampleView.cpp" />
+    <ClCompile Include="src\views\OrderView.cpp" />
+    <ClCompile Include="src\views\ProductionLineView.cpp" />
+    <ClCompile Include="src\views\MonitoringView.cpp" />
+    <ClCompile Include="src\views\ShipmentView.cpp" />
     <ClCompile Include="src\controllers\MainController.cpp" />
+    <ClCompile Include="src\controllers\SampleController.cpp" />
+    <ClCompile Include="src\controllers\OrderController.cpp" />
+    <ClCompile Include="src\controllers\ProductionLineController.cpp" />
+    <ClCompile Include="src\controllers\MonitoringController.cpp" />
+    <ClCompile Include="src\controllers\ShipmentController.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\models\Item.h" />
@@ -143,9 +153,19 @@
     <ClInclude Include="src\views\IView.h" />
     <ClInclude Include="src\views\ItemView.h" />
     <ClInclude Include="src\views\MainMenuView.h" />
+    <ClInclude Include="src\views\SampleView.h" />
+    <ClInclude Include="src\views\OrderView.h" />
+    <ClInclude Include="src\views\ProductionLineView.h" />
+    <ClInclude Include="src\views\MonitoringView.h" />
+    <ClInclude Include="src\views\ShipmentView.h" />
     <ClInclude Include="src\controllers\IController.h" />
     <ClInclude Include="src\controllers\ItemController.h" />
     <ClInclude Include="src\controllers\MainController.h" />
+    <ClInclude Include="src\controllers\SampleController.h" />
+    <ClInclude Include="src\controllers\OrderController.h" />
+    <ClInclude Include="src\controllers\ProductionLineController.h" />
+    <ClInclude Include="src\controllers\MonitoringController.h" />
+    <ClInclude Include="src\controllers\ShipmentController.h" />
     <ClInclude Include="src\utils\InputHelper.h" />
     <ClInclude Include="src\utils\ConsoleUtil.h" />
   </ItemGroup>
