@@ -1,13 +1,7 @@
-#include "ConsoleUtil.h"
+﻿#include "ConsoleUtil.h"
 #include <iostream>
 #include <limits>
 #include <windows.h>
-
-void ConsoleUtil::init()
-{
-    SetConsoleOutputCP(65001);
-    SetConsoleCP(65001);
-}
 
 void ConsoleUtil::clearScreen()
 {
@@ -22,6 +16,6 @@ void ConsoleUtil::printSeparator()
 void ConsoleUtil::pause()
 {
     std::cout << "\n계속하려면 Enter를 누르세요...";
-    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+    std::cin.ignore((std::numeric_limits<std::streamsize>::max)(), '\n');
     std::cin.get();
 }

@@ -14,8 +14,6 @@
 
 int main()
 {
-    ConsoleUtil::init();
-
     MainMenuView        mainView;
     SampleView          sampleView;
     OrderView           orderView;
