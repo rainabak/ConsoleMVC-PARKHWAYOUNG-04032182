@@ -132,7 +132,16 @@
   </ItemDefinitionGroup>
 
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="src\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\models\Item.h" />
+    <ClInclude Include="src\models\ItemRepository.h" />
+    <ClInclude Include="src\views\IView.h" />
+    <ClInclude Include="src\views\ItemView.h" />
+    <ClInclude Include="src\controllers\IController.h" />
+    <ClInclude Include="src\controllers\ItemController.h" />
+    <ClInclude Include="src\utils\InputHelper.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
