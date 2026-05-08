@@ -30,6 +30,15 @@
     <ClCompile Include="src\main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="src\utils\ConsoleUtil.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\MainMenuView.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="src\controllers\MainController.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\models\Item.h">
@@ -44,13 +53,22 @@
     <ClInclude Include="src\views\ItemView.h">
       <Filter>헤더 파일\views</Filter>
     </ClInclude>
+    <ClInclude Include="src\views\MainMenuView.h">
+      <Filter>헤더 파일\views</Filter>
+    </ClInclude>
     <ClInclude Include="src\controllers\IController.h">
       <Filter>헤더 파일\controllers</Filter>
     </ClInclude>
     <ClInclude Include="src\controllers\ItemController.h">
       <Filter>헤더 파일\controllers</Filter>
     </ClInclude>
+    <ClInclude Include="src\controllers\MainController.h">
+      <Filter>헤더 파일\controllers</Filter>
+    </ClInclude>
     <ClInclude Include="src\utils\InputHelper.h">
+      <Filter>헤더 파일\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\ConsoleUtil.h">
       <Filter>헤더 파일\utils</Filter>
     </ClInclude>
   </ItemGroup>

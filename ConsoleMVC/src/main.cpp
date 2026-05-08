@@ -1,12 +1,10 @@
-#include "models/ItemRepository.h"
-#include "views/ItemView.h"
-#include "controllers/ItemController.h"
+#include "views/MainMenuView.h"
+#include "controllers/MainController.h"
 
 int main()
 {
-    ItemRepository repository;
-    ItemView       view;
-    ItemController controller(repository, view);
+    MainMenuView   view;
+    MainController controller(view);
 
     controller.run();
 

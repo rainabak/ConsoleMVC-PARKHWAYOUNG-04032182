@@ -133,15 +133,21 @@
 
   <ItemGroup>
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\utils\ConsoleUtil.cpp" />
+    <ClCompile Include="src\views\MainMenuView.cpp" />
+    <ClCompile Include="src\controllers\MainController.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\models\Item.h" />
     <ClInclude Include="src\models\ItemRepository.h" />
     <ClInclude Include="src\views\IView.h" />
     <ClInclude Include="src\views\ItemView.h" />
+    <ClInclude Include="src\views\MainMenuView.h" />
     <ClInclude Include="src\controllers\IController.h" />
     <ClInclude Include="src\controllers\ItemController.h" />
+    <ClInclude Include="src\controllers\MainController.h" />
     <ClInclude Include="src\utils\InputHelper.h" />
+    <ClInclude Include="src\utils\ConsoleUtil.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
