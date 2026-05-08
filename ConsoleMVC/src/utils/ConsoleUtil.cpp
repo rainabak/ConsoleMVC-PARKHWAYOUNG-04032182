@@ -1,6 +1,13 @@
 #include "ConsoleUtil.h"
 #include <iostream>
 #include <limits>
+#include <windows.h>
+
+void ConsoleUtil::init()
+{
+    SetConsoleOutputCP(65001);
+    SetConsoleCP(65001);
+}
 
 void ConsoleUtil::clearScreen()
 {

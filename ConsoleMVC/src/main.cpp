@@ -1,3 +1,4 @@
+#include "utils/ConsoleUtil.h"
 #include "views/MainMenuView.h"
 #include "views/SampleView.h"
 #include "views/OrderView.h"
@@ -13,6 +14,8 @@
 
 int main()
 {
+    ConsoleUtil::init();
+
     MainMenuView        mainView;
     SampleView          sampleView;
     OrderView           orderView;
